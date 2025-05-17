@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./Breath-eli.css" />
+    <title>Breath Well</title>
+  </head>
+  <body>
+    <h1>" Breath Well !!! "</h1>
+
+    <div class="breath-controls">
+      <button id="startBtn" class="breath-btn left-btn">Start</button>
+      <button id="stopBtn" class="breath-btn right-btn">Stop</button>
+    </div>
+    <div class="container" id="container">
+      <div class="circle">
+        <svg
+          id="leafIcon"
+          class="leaf-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 64 64"
+          width="64"
+          height="64"
+        >
+          <path
+            d="M32 60C12 44 4 24 4 24S24 4 32 4s28 20 28 20-8 20-28 36z"
+            fill="#4caf50"
+            stroke="#388e3c"
+            stroke-width="3"
+          />
+          <path
+            d="M32 60V4"
+            stroke="#2e7d32"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+      <p id="text"></p>
+      <div class="pointer-container">
+        <span class="pointer"></span>
+      </div>
+      <div class="gradient-circle"></div>
+    </div>
+
+    <script src="./breath-eliv.js"></script>
+  </body>
+</html>
